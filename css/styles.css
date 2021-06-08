@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.1);
+}
+
+nav > .left > a.navbar-brand img{
+  width: 80px;
+}
+
+.child {
+  /* border: 2px solid green; */
+}
+
+.left {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgb(228, 225, 225);
+}
+
+.search-input {
+  background-color: #f0f2f5;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.search-input input {
+  border: none;
+  background: transparent;
+  margin-left: 10px;
+}
+
+.search-input input:focus {
+  outline: none;
+}
+
+.center {
+ flex: 6;
+}
+
+.center .icons {
+  /* border: 2px solid blue; */
+  max-width: 400px;
+  margin-top: 12px !important;
+  margin: 0 auto;
+  /* text-align: center; */
+  display: flex;
+  justify-content:space-around;
+  font-size: 25px;
+}
+
+.fa {
+   cursor: pointer;
+}
+
+.fa-home {
+  color: #1A79F2;
+}
+
+.fa-users {
+  color: rgba(255, 166, 0, 0.972)
+}
+
+.fa-video {
+  color: #e46140;
+}
+
+.fa-gamepad {
+  color: #6aca11;
+}
+
+.right {
+ flex:3;
+ display: flex;
+ align-items:center;
+ justify-content: space-between;
+ border-left: 1px solid rgb(228, 225, 225);
+}
+
+.right .user {
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
+  padding: 5px 5px;
+  padding-right: 10px;
+  height:25px;
+  cursor: pointer;
+}
+
+.right .user:hover {
+  background-color: #f0f2f5;
+}
+
+.right .user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 45px;
+  margin-right: 7px;
+}
+
+.right .user span {
+  font-weight: bold;
+}
+
+.right .icons {
+  padding: 5px; 
+  margin-right: 7px;
+}
+
+.right .icons .fa {
+  font-size: 22px;
+  background-color: #f0f2f5;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 10px; 
+}
+
+.right .icons .fa:hover {
+  background-color: #e3e4e6;
+}
+
+a.navbar-brand {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  
+}
+
+#wrapper {
+  display: flex;
+
+}
+
+.wrapper-left {
+  flex: 3
+}
+
+.wrapper-center {
+  flex: 6 
+}
+
+.wrapper-right {
+  flex: 3
+}
